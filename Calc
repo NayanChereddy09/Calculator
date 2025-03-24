@@ -1,0 +1,17 @@
+firstnumb = input("Enter the first number: ")
+secondnumb = input("Enter the second number: ")
+oparator =  input("Enter the operator (e.g., +, -, *, /, %, **, //): ")
+if oparator == "+":
+    print("The solution is:", int(firstnumb) + int(secondnumb))
+elif oparator == "-":
+    print("The solution is:", int(firstnumb) - int(secondnumb))
+elif oparator == "*":
+    print("The solution is:", int(firstnumb) * int(secondnumb))
+elif oparator == "/":
+    print("The solution is:", int(firstnumb) / int(secondnumb))
+elif oparator == "%":
+    print("The solution is:", int(firstnumb) % int(secondnumb))
+elif oparator == "**":
+    print("The solution is:", int(firstnumb) ** int(secondnumb))
+elif oparator == "//":
+    print("The solution is:", int(firstnumb) // int(secondnumb))
